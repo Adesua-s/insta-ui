@@ -5,6 +5,12 @@ class ReelsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('reels tab'));
+    return GridView.builder(
+      itemCount: 10,
+      physics: NeverScrollableScrollPhysics(), 
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3), 
+      itemBuilder: (context, index) => Image.asset('lib/images_insta/image'+ ( index + 1 ).toString() +'.jpg'),
+      
+      );
   }
 }

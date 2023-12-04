@@ -72,7 +72,7 @@ final List<Widget> tabs =
                       width:120,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        image: DecorationImage(image: AssetImage('lib/images_insta/image3.jpg'),
+                        image: DecorationImage(image: AssetImage('lib/images_insta/image11.jpg'),
                         fit: BoxFit.cover)
                         
                       ),
